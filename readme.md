@@ -1,6 +1,6 @@
 # TED Policy Demo 
 
-This repository accompanies [this youtube video]().
+This repository accompanies [this youtube video](https://www.youtube.com/watch?v=d8JMJMvErSg).
 
 Note that this project was made with these rasa versions in mind. 
 
