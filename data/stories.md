@@ -1,0 +1,154 @@
+## happy path
+* greet
+  - utter_greet
+* start_count
+  - utter_10_countdown
+* confirm
+  - utter_9_countdown
+* confirm
+  - utter_8_countdown
+* confirm
+  - utter_7_countdown
+* confirm
+  - utter_6_countdown
+* confirm
+  - utter_5_countdown
+* confirm
+  - utter_4_countdown
+* confirm
+  - utter_3_countdown
+* confirm
+  - utter_2_countdown
+* confirm
+  - utter_1_countdown
+* confirm
+  - utter_0_countdown
+* goodbye
+  - utter_goodbye
+
+## say goodbye
+* goodbye
+  - utter_goodbye
+
+## bot challenge
+* bot_challenge
+  - utter_iamabot
+
+## interrupt path 1
+* greet
+  - utter_greet
+* bot_challenge
+  - utter_iamabot
+* start_count
+  - utter_10_countdown
+* confirm
+  - utter_9_countdown
+* confirm
+  - utter_8_countdown
+* confirm
+  - utter_7_countdown
+* confirm
+  - utter_6_countdown
+* bot_challenge
+  - utter_iamabot
+  - utter_5_countdown
+* confirm
+  - utter_4_countdown
+* confirm
+  - utter_3_countdown
+* confirm
+  - utter_2_countdown
+* confirm
+  - utter_1_countdown
+* confirm
+  - utter_0_countdown
+* bot_challenge
+  - utter_iamabot
+* goodbye
+  - utter_goodbye
+
+## interrupt path 2
+* greet
+  - utter_greet
+* start_count
+  - utter_10_countdown
+* bot_challenge
+  - utter_iamabot
+  - utter_9_countdown
+* confirm
+  - utter_8_countdown
+* bot_challenge
+  - utter_iamabot
+  - utter_7_countdown
+* confirm
+  - utter_6_countdown
+* confirm
+  - utter_5_countdown
+* confirm
+  - utter_4_countdown
+* confirm
+  - utter_3_countdown
+* confirm
+  - utter_2_countdown
+* confirm
+  - utter_1_countdown
+* confirm
+  - utter_0_countdown
+* goodbye
+  - utter_goodbye
+
+## interrupt path 3
+* greet
+  - utter_greet
+* start_count
+  - utter_10_countdown
+* confirm
+  - utter_9_countdown
+* confirm
+  - utter_8_countdown
+* confirm
+  - utter_7_countdown
+* confirm
+  - utter_6_countdown
+* confirm
+  - utter_5_countdown
+* confirm
+  - utter_4_countdown
+* confirm
+  - utter_3_countdown
+* confirm
+  - utter_2_countdown
+* bot_challenge
+  - utter_iamabot
+  - utter_1_countdown
+* confirm
+  - utter_0_countdown
+* goodbye
+  - utter_goodbye
+
+## interrupt path 4
+* greet
+    - utter_greet
+* start_count
+    - utter_10_countdown
+* bot_challenge
+    - utter_iamabot
+    - utter_9_countdown
+* bot_challenge
+    - utter_iamabot
+    - utter_8_countdown
+* bot_challenge
+    - utter_iamabot
+    - utter_7_countdown
+* bot_challenge
+    - utter_iamabot
+    - utter_6_countdown
+* confirm
+    - utter_5_countdown
+* confirm
+    - utter_4_countdown
+* bot_challenge
+    - utter_iamabot
+    - utter_3_countdown
+* goodbye
+    - utter_goodbye

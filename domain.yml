@@ -1,0 +1,55 @@
+actions:
+  - utter_0_countdown
+  - utter_10_countdown
+  - utter_1_countdown
+  - utter_2_countdown
+  - utter_3_countdown
+  - utter_4_countdown
+  - utter_5_countdown
+  - utter_6_countdown
+  - utter_7_countdown
+  - utter_8_countdown
+  - utter_9_countdown
+  - utter_goodbye
+  - utter_greet
+  - utter_iamabot
+
+intents:  
+  - start_count
+  - greet
+  - confirm
+  - goodbye
+  - bot_challenge
+
+responses:
+  utter_0_countdown:
+  - text: "End of countdown!"
+  utter_1_countdown:
+  - text: "Countdown! ETA 1 🎵"
+  utter_2_countdown:
+  - text: "Countdown! ETA 2 🎵"
+  utter_3_countdown:
+  - text: "Countdown! ETA 3 🎵"
+  utter_4_countdown:
+  - text: "Countdown! ETA 4 🎵"
+  utter_5_countdown:
+  - text: "Countdown! ETA 5 🎵"
+  utter_6_countdown:
+  - text: "Countdown! ETA 6 🎵"
+  utter_7_countdown:
+  - text: "Countdown! ETA 7 🎵"
+  utter_8_countdown:
+  - text: "Countdown! ETA 8 🎵"
+  utter_9_countdown:
+  - text: "Countdown! ETA 9 🎵"
+  utter_10_countdown:
+    - text: "Countdown! ETA 10 🎵"
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey!
+  utter_iamabot:
+  - text: I am a bot, not a human, powered by Rasa.
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
